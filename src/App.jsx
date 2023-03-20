@@ -7,6 +7,9 @@ import Drugs from './pages/Drugs/Drugs';
 import Drug from './pages/Drug/Drug';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
+import Stores from './pages/Stores/Stores';
+import Store from './pages/Store/Store'; 
+
 import "./app.scss"
 
 const Layout = () =>{
@@ -36,6 +39,14 @@ const router = createBrowserRouter([
       { 
         path: '/drug/:id', 
         element:<Drug/>
+      },
+      { 
+        path: '/stores/:id', 
+        element:<Stores/>
+      },
+      { 
+        path: '/store/:id', 
+        element:<Store/>
       },
     
     ]

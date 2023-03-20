@@ -32,7 +32,7 @@ function Hero() {
                 You can reach it Any Time , Any Where!
                 Driving everywhere to find the quantity of mony you need, DSCM solved the problem.
                 </p>
-                <button class="rounded-full border-color: bg-green-600 w-[25%] p-2 mt-8 text-white">Shop Now</button>
+                <button className="rounded-full border-color: bg-green-600 w-[25%] p-2 mt-8 text-white">Shop Now</button>
                 
             </div>
             {/*image*/}
